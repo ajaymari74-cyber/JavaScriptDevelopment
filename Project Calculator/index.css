@@ -1,0 +1,48 @@
+.claculator{
+    width: 30vw;
+    height: 70vh;
+    border: 1px solid rgb(186, 185, 185);
+    margin: auto;
+    position: relative;
+    top: 100px;
+    display: grid;
+    gap: 5px;
+    padding: 20px;
+}
+.claculator>.form-group{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+
+}
+.claculator>.form-group>button{
+    width: 25%;
+    font-size: 20px;
+    border: none;
+}
+.claculator>.form-group>input{
+    width: 100%;
+    font-size: 45px;
+    border: 1px solid rgb(214, 211, 211);
+    text-align: end;
+    outline: none;
+    border-radius: 5px;
+    padding-right: 2px;
+}
+.claculator>.form-group>button.evaluate{
+    color: white;
+    background-color:blue ;
+    border-radius: 5px;
+    font-size: 30px;
+
+}
+
+.claculator>.form-group>button:hover{
+    background-color: rgb(184, 177, 177);
+
+    
+}
+
+.claculator>.form-group>button.evaluate:hover{
+background-color: rgb(93, 93, 234);
+}

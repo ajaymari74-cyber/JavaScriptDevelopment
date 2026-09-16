@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <form class="claculator">
+        <div class="form-group">
+            <input type="text">
+        </div>
+        <div class="form-group"><button type="button" onclick="AddVAlue('%')">%</button>
+            <button type="button" onclick="clearVal()">C</button><button type="button" onclick="deleteVal()">Del</button>
+            <button type="button" onclick="AddVAlue('/')">/</button>
+        </div>
+        <div class="form-group"><button type="button" onclick="AddVAlue('1')">1</button><button type="button"
+                onclick="AddVAlue('2')">2</button><button type="button" onclick="AddVAlue('3')">3</button><button
+                type="button" onclick="AddVAlue('+')">+</button></div>
+        <div class="form-group"><button type="button" onclick="AddVAlue('4')">4</button><button type="button"
+                onclick="AddVAlue('5')">5</button><button type="button" onclick="AddVAlue('6')">6</button><button
+                type="button" onclick="AddVAlue('-')">-</button></div>
+        <div class="form-group"><button type="button" onclick="AddVAlue('7')">7</button><button type="button"
+                onclick="AddVAlue('8')">8</button><button type="button" onclick="AddVAlue('9')">9</button><button
+                type="button" onclick="AddVAlue('*')">*</button></div>
+        <div class="form-group"><button type="button" onclick="AddVAlue('00')">00</button><button type="button"
+                onclick="AddVAlue('0')">0</button><button type="button" onclick="AddVAlue('.')">.</button><button
+                type="button" onclick="evalValue()" class="evaluate">=</button></div>
+
+    </form>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "fontend_course",
+  "version": "1.0.0",
+  "description": "React Js Series",
+  "homepage": "https://github.com/ajaymari74-cyber/JavaScriptDevelopment#readme",
+  "bugs": {
+    "url": "https://github.com/ajaymari74-cyber/JavaScriptDevelopment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaymari74-cyber/JavaScriptDevelopment.git"
+  },
+  "license": "ISC",
+  "author": "Ajay M",
+  "type": "module",
+  "main": "index.js",
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
