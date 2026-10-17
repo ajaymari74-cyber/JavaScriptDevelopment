@@ -13,4 +13,4 @@ Stack (Before Modification);
 x =10; 
 y = x;
 
-x = 20; 
+x = 20; y
